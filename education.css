@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(181, 139, 72);
+}
+header {
+  background-color: rgb(30, 141, 139);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin: 0 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+#Education {
+    text-align: center;
+    margin: 30px;
+}
+
+#Education h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 30px;
+    text-align: left;
+    border: 5px solid rgb(0, 26, 255);
+}
+
+th {
+    background-color: #07f3ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+td {
+    font-size: 16px;
+}
+li {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  font-size: 22px;
+  color: rgb(253, 12, 12);
+}
